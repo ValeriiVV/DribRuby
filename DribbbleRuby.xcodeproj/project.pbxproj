@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38BFE11F1EE22C330013ABCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE11E1EE22C330013ABCD /* AppDelegate.swift */; };
+		38BFE1291EE22C330013ABCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE1281EE22C330013ABCD /* Assets.xcassets */; };
+		38BFE12C1EE22C330013ABCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE12A1EE22C330013ABCD /* LaunchScreen.storyboard */; };
+		38BFE1421EE22C330013ABCD /* DribbbleRubyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1411EE22C330013ABCD /* DribbbleRubyUITests.swift */; };
+		38BFE1501EE22C4E0013ABCD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE14F1EE22C4E0013ABCD /* NetworkManager.swift */; };
+		38BFE1521EE22C860013ABCD /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1511EE22C860013ABCD /* UITableView+Extensions.swift */; };
+		38BFE1541EE22CA00013ABCD /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1531EE22CA00013ABCD /* Reusable.swift */; };
+		38BFE1571EE22CCA0013ABCD /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1561EE22CCA0013ABCD /* Shot.swift */; };
+		38BFE15A1EE22CFE0013ABCD /* ShotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1581EE22CFE0013ABCD /* ShotsListViewController.swift */; };
+		38BFE15B1EE22CFE0013ABCD /* ShotsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE1591EE22CFE0013ABCD /* ShotsListViewController.xib */; };
+		38BFE15F1EE22D1F0013ABCD /* ShotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE15D1EE22D1F0013ABCD /* ShotTableViewCell.swift */; };
+		38BFE1601EE22D1F0013ABCD /* ShotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE15E1EE22D1F0013ABCD /* ShotTableViewCell.xib */; };
+		38BFE1661EE48CF80013ABCD /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1651EE48CF80013ABCD /* UIImageView+Download.swift */; };
+		38BFE1681EE4A4420013ABCD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1671EE4A4420013ABCD /* Image.swift */; };
+		38BFE16A1EE5E4C70013ABCD /* GlobalAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE1691EE5E4C70013ABCD /* GlobalAlert.swift */; };
+		38BFE1701EE61F620013ABCD /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE16F1EE61F620013ABCD /* String+Html.swift */; };
+		38D89BDC1EE8020100CE516D /* ShotsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D89BDB1EE8020100CE516D /* ShotsViewModelTest.swift */; };
+		8538FA45B0C538BD08206234 /* Pods_DribbbleRubyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF17318897C35DB1F81AB616 /* Pods_DribbbleRubyTests.framework */; };
+		E4AE2FC21EE2F1A50014977F /* ShotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE2FC11EE2F1A50014977F /* ShotsViewModel.swift */; };
+		E4E6E2C71EE5C45A00205DED /* ShotObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6E2C61EE5C45A00205DED /* ShotObject.swift */; };
+		FE46C568AC32052D1949FABB /* Pods_DribbbleRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5756E055D7547AF61BB52CC /* Pods_DribbbleRuby.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38BFE1331EE22C330013ABCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BFE1131EE22C330013ABCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BFE11A1EE22C330013ABCD;
+			remoteInfo = DribbbleRuby;
+		};
+		38BFE13E1EE22C330013ABCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BFE1131EE22C330013ABCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BFE11A1EE22C330013ABCD;
+			remoteInfo = DribbbleRuby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36BD6410667C340355C1FA3A /* Pods-DribbbleRuby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleRuby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleRuby/Pods-DribbbleRuby.debug.xcconfig"; sourceTree = "<group>"; };
+		38BFE11B1EE22C330013ABCD /* DribbbleRuby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbbleRuby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE11E1EE22C330013ABCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BFE1281EE22C330013ABCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BFE12B1EE22C330013ABCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BFE12D1EE22C330013ABCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BFE1321EE22C330013ABCD /* DribbbleRubyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbbleRubyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE1381EE22C330013ABCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BFE13D1EE22C330013ABCD /* DribbbleRubyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbbleRubyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE1411EE22C330013ABCD /* DribbbleRubyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbbleRubyUITests.swift; sourceTree = "<group>"; };
+		38BFE1431EE22C330013ABCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BFE14F1EE22C4E0013ABCD /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		38BFE1511EE22C860013ABCD /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		38BFE1531EE22CA00013ABCD /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		38BFE1561EE22CCA0013ABCD /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		38BFE1581EE22CFE0013ABCD /* ShotsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsListViewController.swift; sourceTree = "<group>"; };
+		38BFE1591EE22CFE0013ABCD /* ShotsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotsListViewController.xib; sourceTree = "<group>"; };
+		38BFE15D1EE22D1F0013ABCD /* ShotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotTableViewCell.swift; sourceTree = "<group>"; };
+		38BFE15E1EE22D1F0013ABCD /* ShotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotTableViewCell.xib; sourceTree = "<group>"; };
+		38BFE1651EE48CF80013ABCD /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		38BFE1671EE4A4420013ABCD /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		38BFE1691EE5E4C70013ABCD /* GlobalAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalAlert.swift; sourceTree = "<group>"; };
+		38BFE16F1EE61F620013ABCD /* String+Html.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Html.swift"; sourceTree = "<group>"; };
+		38D89BDB1EE8020100CE516D /* ShotsViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsViewModelTest.swift; sourceTree = "<group>"; };
+		70E4277294083B359D5060F9 /* Pods-DribbbleRubyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleRubyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleRubyTests/Pods-DribbbleRubyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A40B113BB9E86E5B11F000D4 /* Pods-DribbbleRuby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleRuby.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleRuby/Pods-DribbbleRuby.release.xcconfig"; sourceTree = "<group>"; };
+		BF17318897C35DB1F81AB616 /* Pods_DribbbleRubyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleRubyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5756E055D7547AF61BB52CC /* Pods_DribbbleRuby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbbleRuby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76E4B6C2ED8B97F242E4D31 /* Pods-DribbbleRubyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbbleRubyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbbleRubyTests/Pods-DribbbleRubyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4AE2FC11EE2F1A50014977F /* ShotsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsViewModel.swift; sourceTree = "<group>"; };
+		E4E6E2C61EE5C45A00205DED /* ShotObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BFE1181EE22C330013ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE46C568AC32052D1949FABB /* Pods_DribbbleRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE12F1EE22C330013ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8538FA45B0C538BD08206234 /* Pods_DribbbleRubyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE13A1EE22C330013ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BFE1121EE22C330013ABCD = {
+			isa = PBXGroup;
+			children = (
+				38BFE11D1EE22C330013ABCD /* DribbbleRuby */,
+				38BFE1351EE22C330013ABCD /* DribbbleRubyTests */,
+				38BFE1401EE22C330013ABCD /* DribbbleRubyUITests */,
+				38BFE11C1EE22C330013ABCD /* Products */,
+				B9AB188A8B54A898B1683FFB /* Pods */,
+				942B6C13A4BB4AAB00F44ACD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38BFE11C1EE22C330013ABCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE11B1EE22C330013ABCD /* DribbbleRuby.app */,
+				38BFE1321EE22C330013ABCD /* DribbbleRubyTests.xctest */,
+				38BFE13D1EE22C330013ABCD /* DribbbleRubyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BFE11D1EE22C330013ABCD /* DribbbleRuby */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE11E1EE22C330013ABCD /* AppDelegate.swift */,
+				38BFE1631EE22DCD0013ABCD /* Managers */,
+				38BFE1621EE22DC90013ABCD /* Models */,
+				38BFE1551EE22CAB0013ABCD /* Extensions */,
+				38BFE1641EE22DED0013ABCD /* ViewControllers */,
+				38BFE1281EE22C330013ABCD /* Assets.xcassets */,
+				38BFE12A1EE22C330013ABCD /* LaunchScreen.storyboard */,
+				38BFE12D1EE22C330013ABCD /* Info.plist */,
+			);
+			path = DribbbleRuby;
+			sourceTree = "<group>";
+		};
+		38BFE1351EE22C330013ABCD /* DribbbleRubyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38D89BDB1EE8020100CE516D /* ShotsViewModelTest.swift */,
+				38BFE1381EE22C330013ABCD /* Info.plist */,
+			);
+			path = DribbbleRubyTests;
+			sourceTree = "<group>";
+		};
+		38BFE1401EE22C330013ABCD /* DribbbleRubyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE1411EE22C330013ABCD /* DribbbleRubyUITests.swift */,
+				38BFE1431EE22C330013ABCD /* Info.plist */,
+			);
+			path = DribbbleRubyUITests;
+			sourceTree = "<group>";
+		};
+		38BFE1551EE22CAB0013ABCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE1511EE22C860013ABCD /* UITableView+Extensions.swift */,
+				38BFE1691EE5E4C70013ABCD /* GlobalAlert.swift */,
+				38BFE16F1EE61F620013ABCD /* String+Html.swift */,
+				38BFE1651EE48CF80013ABCD /* UIImageView+Download.swift */,
+				38BFE1531EE22CA00013ABCD /* Reusable.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		38BFE15C1EE22D040013ABCD /* ShotsListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE1581EE22CFE0013ABCD /* ShotsListViewController.swift */,
+				38BFE1591EE22CFE0013ABCD /* ShotsListViewController.xib */,
+				38BFE1611EE22D250013ABCD /* ShotTableViewCell */,
+				E4AE2FC11EE2F1A50014977F /* ShotsViewModel.swift */,
+			);
+			name = ShotsListViewController;
+			sourceTree = "<group>";
+		};
+		38BFE1611EE22D250013ABCD /* ShotTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE15D1EE22D1F0013ABCD /* ShotTableViewCell.swift */,
+				38BFE15E1EE22D1F0013ABCD /* ShotTableViewCell.xib */,
+			);
+			name = ShotTableViewCell;
+			sourceTree = "<group>";
+		};
+		38BFE1621EE22DC90013ABCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE1561EE22CCA0013ABCD /* Shot.swift */,
+				38BFE1671EE4A4420013ABCD /* Image.swift */,
+				E4E6E2C61EE5C45A00205DED /* ShotObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		38BFE1631EE22DCD0013ABCD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE14F1EE22C4E0013ABCD /* NetworkManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		38BFE1641EE22DED0013ABCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE15C1EE22D040013ABCD /* ShotsListViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		942B6C13A4BB4AAB00F44ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5756E055D7547AF61BB52CC /* Pods_DribbbleRuby.framework */,
+				BF17318897C35DB1F81AB616 /* Pods_DribbbleRubyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AB188A8B54A898B1683FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BD6410667C340355C1FA3A /* Pods-DribbbleRuby.debug.xcconfig */,
+				A40B113BB9E86E5B11F000D4 /* Pods-DribbbleRuby.release.xcconfig */,
+				C76E4B6C2ED8B97F242E4D31 /* Pods-DribbbleRubyTests.debug.xcconfig */,
+				70E4277294083B359D5060F9 /* Pods-DribbbleRubyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BFE11A1EE22C330013ABCD /* DribbbleRuby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE1461EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRuby" */;
+			buildPhases = (
+				B02256A57EEB5C379CD51557 /* [CP] Check Pods Manifest.lock */,
+				38BFE1171EE22C330013ABCD /* Sources */,
+				38BFE1181EE22C330013ABCD /* Frameworks */,
+				38BFE1191EE22C330013ABCD /* Resources */,
+				0805DA5DCD8DCEB9450C0622 /* [CP] Embed Pods Frameworks */,
+				F9E43CA11DF115EB1A88BE9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DribbbleRuby;
+			productName = DribbbleRuby;
+			productReference = 38BFE11B1EE22C330013ABCD /* DribbbleRuby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38BFE1311EE22C330013ABCD /* DribbbleRubyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE1491EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRubyTests" */;
+			buildPhases = (
+				6533BA26B648C7797788A4E4 /* [CP] Check Pods Manifest.lock */,
+				38BFE12E1EE22C330013ABCD /* Sources */,
+				38BFE12F1EE22C330013ABCD /* Frameworks */,
+				38BFE1301EE22C330013ABCD /* Resources */,
+				3F13246E2FBC0A07F7CBD336 /* [CP] Embed Pods Frameworks */,
+				6881EA5B9449700E666A3A54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BFE1341EE22C330013ABCD /* PBXTargetDependency */,
+			);
+			name = DribbbleRubyTests;
+			productName = DribbbleRubyTests;
+			productReference = 38BFE1321EE22C330013ABCD /* DribbbleRubyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38BFE13C1EE22C330013ABCD /* DribbbleRubyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE14C1EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRubyUITests" */;
+			buildPhases = (
+				38BFE1391EE22C330013ABCD /* Sources */,
+				38BFE13A1EE22C330013ABCD /* Frameworks */,
+				38BFE13B1EE22C330013ABCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BFE13F1EE22C330013ABCD /* PBXTargetDependency */,
+			);
+			name = DribbbleRubyUITests;
+			productName = DribbbleRubyUITests;
+			productReference = 38BFE13D1EE22C330013ABCD /* DribbbleRubyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BFE1131EE22C330013ABCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Valerii Korobov";
+				TargetAttributes = {
+					38BFE11A1EE22C330013ABCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U62X5269P7;
+						ProvisioningStyle = Automatic;
+					};
+					38BFE1311EE22C330013ABCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U62X5269P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BFE11A1EE22C330013ABCD;
+					};
+					38BFE13C1EE22C330013ABCD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U62X5269P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BFE11A1EE22C330013ABCD;
+					};
+				};
+			};
+			buildConfigurationList = 38BFE1161EE22C330013ABCD /* Build configuration list for PBXProject "DribbbleRuby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BFE1121EE22C330013ABCD;
+			productRefGroup = 38BFE11C1EE22C330013ABCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BFE11A1EE22C330013ABCD /* DribbbleRuby */,
+				38BFE1311EE22C330013ABCD /* DribbbleRubyTests */,
+				38BFE13C1EE22C330013ABCD /* DribbbleRubyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BFE1191EE22C330013ABCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE12C1EE22C330013ABCD /* LaunchScreen.storyboard in Resources */,
+				38BFE15B1EE22CFE0013ABCD /* ShotsListViewController.xib in Resources */,
+				38BFE1291EE22C330013ABCD /* Assets.xcassets in Resources */,
+				38BFE1601EE22D1F0013ABCD /* ShotTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE1301EE22C330013ABCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE13B1EE22C330013ABCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0805DA5DCD8DCEB9450C0622 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleRuby/Pods-DribbbleRuby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F13246E2FBC0A07F7CBD336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleRubyTests/Pods-DribbbleRubyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6533BA26B648C7797788A4E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6881EA5B9449700E666A3A54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleRubyTests/Pods-DribbbleRubyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02256A57EEB5C379CD51557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E43CA11DF115EB1A88BE9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbbleRuby/Pods-DribbbleRuby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BFE1171EE22C330013ABCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AE2FC21EE2F1A50014977F /* ShotsViewModel.swift in Sources */,
+				38BFE1541EE22CA00013ABCD /* Reusable.swift in Sources */,
+				38BFE1701EE61F620013ABCD /* String+Html.swift in Sources */,
+				38BFE1521EE22C860013ABCD /* UITableView+Extensions.swift in Sources */,
+				38BFE1501EE22C4E0013ABCD /* NetworkManager.swift in Sources */,
+				38BFE16A1EE5E4C70013ABCD /* GlobalAlert.swift in Sources */,
+				E4E6E2C71EE5C45A00205DED /* ShotObject.swift in Sources */,
+				38BFE15F1EE22D1F0013ABCD /* ShotTableViewCell.swift in Sources */,
+				38BFE15A1EE22CFE0013ABCD /* ShotsListViewController.swift in Sources */,
+				38BFE11F1EE22C330013ABCD /* AppDelegate.swift in Sources */,
+				38BFE1571EE22CCA0013ABCD /* Shot.swift in Sources */,
+				38BFE1681EE4A4420013ABCD /* Image.swift in Sources */,
+				38BFE1661EE48CF80013ABCD /* UIImageView+Download.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE12E1EE22C330013ABCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D89BDC1EE8020100CE516D /* ShotsViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE1391EE22C330013ABCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE1421EE22C330013ABCD /* DribbbleRubyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BFE1341EE22C330013ABCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BFE11A1EE22C330013ABCD /* DribbbleRuby */;
+			targetProxy = 38BFE1331EE22C330013ABCD /* PBXContainerItemProxy */;
+		};
+		38BFE13F1EE22C330013ABCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BFE11A1EE22C330013ABCD /* DribbbleRuby */;
+			targetProxy = 38BFE13E1EE22C330013ABCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38BFE12A1EE22C330013ABCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BFE12B1EE22C330013ABCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BFE1441EE22C330013ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38BFE1451EE22C330013ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BFE1471EE22C330013ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BD6410667C340355C1FA3A /* Pods-DribbbleRuby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRuby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRuby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38BFE1481EE22C330013ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40B113BB9E86E5B11F000D4 /* Pods-DribbbleRuby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRuby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRuby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38BFE14A1EE22C330013ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76E4B6C2ED8B97F242E4D31 /* Pods-DribbbleRubyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRubyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRubyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleRuby.app/DribbbleRuby";
+			};
+			name = Debug;
+		};
+		38BFE14B1EE22C330013ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E4277294083B359D5060F9 /* Pods-DribbbleRubyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRubyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRubyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbbleRuby.app/DribbbleRuby";
+			};
+			name = Release;
+		};
+		38BFE14D1EE22C330013ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRubyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRubyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DribbbleRuby;
+			};
+			name = Debug;
+		};
+		38BFE14E1EE22C330013ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U62X5269P7;
+				INFOPLIST_FILE = DribbbleRubyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.DribbbleRubyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DribbbleRuby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BFE1161EE22C330013ABCD /* Build configuration list for PBXProject "DribbbleRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE1441EE22C330013ABCD /* Debug */,
+				38BFE1451EE22C330013ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE1461EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE1471EE22C330013ABCD /* Debug */,
+				38BFE1481EE22C330013ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE1491EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRubyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE14A1EE22C330013ABCD /* Debug */,
+				38BFE14B1EE22C330013ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE14C1EE22C330013ABCD /* Build configuration list for PBXNativeTarget "DribbbleRubyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE14D1EE22C330013ABCD /* Debug */,
+				38BFE14E1EE22C330013ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38BFE1131EE22C330013ABCD /* Project object */;
+}

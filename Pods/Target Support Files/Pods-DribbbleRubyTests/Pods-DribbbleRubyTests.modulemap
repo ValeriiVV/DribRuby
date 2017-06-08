@@ -1,0 +1,6 @@
+framework module Pods_DribbbleRubyTests {
+  umbrella header "Pods-DribbbleRubyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
